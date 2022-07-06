@@ -1,5 +1,4 @@
 # Parking-Space-Availability-Checker
-for code please check master
 
 This is an application that can be used to determine the number of parking bays available for a vehicle that is going to enter the parking lot.
 
