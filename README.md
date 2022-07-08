@@ -9,9 +9,11 @@ Parking Space Detector:
 	Now The main idea used in Image Processing is that first the whole video is made into black and white, then we can observe only two colored pixels either black or white. So the basic idea is that when the cars will be present in the parking bays that’s the rectangles that we have drawn then the pixels will be white in colour and if no object is present then the pixels will be in black colour. So by setting some limit for the white pixels that can be present in the parking bay we can identify whether there is a vehicle in the bay or not. If not then the number of parking spaces available will be incremented and yeah if at all some other vehicle comes then the white pixel count in the bay increases and the total parking space count will decrease.
 
 
-Required to install new version of pip 
+Required to install: new version of pip 
+
 PIP is a package management system used to install and manage software packages/libraries written in Python. These files are stored in a large “on-line repository” termed as Python Package Index (PyPI).
-pip uses PyPI as the default source for packages and their dependencies. So whenever you type:
+
+pip uses PyPI as the default source for packages and their dependencies. So whenever we type:
 pip install package_name
 pip will look for that package on PyPI and if found, it will download and install the package on the local system.
 
